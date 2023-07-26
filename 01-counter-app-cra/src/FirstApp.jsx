@@ -21,4 +21,8 @@ FirstApp.propTypes = {
     title: PropTypes.string.isRequired
 };
 
+FirstApp.defaultProps = {
+    title: 'Este es un titulo por defecto'
+}
+
 export default FirstApp;
