@@ -12,7 +12,7 @@ describe('Pruebas en 07-deses-arr', () => {
         expect(typeof letters).toBe('string');
         expect(typeof numbers).toBe('number');
 
-        // espera que sea del msmo tipo
+        // espera que sea del mismo tipo
         expect(letters).toEqual(expect.any(String));
     });
 });
