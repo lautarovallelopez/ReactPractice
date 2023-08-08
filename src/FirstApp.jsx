@@ -12,7 +12,7 @@ const FirstApp = ({ title }) => {
         <>
             <h2>{greet(greetingObject)}</h2>
             <h3>Valle López</h3>
-            <h4>{title}</h4>
+            <h4 data-testid="test-title">{title}</h4>
         </>
     );
 }
